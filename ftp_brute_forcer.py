@@ -1,19 +1,18 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
-__author__ = 'Arjen'
+print "author ===> 'Arjen'"
 
 import argparse
 import sys
 from ftplib import FTP
 
 info = '''
-Usage: ./ftp_brute_forcer.py [options]\n
+Usage: ./brute.py [options]\n
 Options: -t, --target    <hostname/ip>   |   Target\n
          -u, --user      <user>          |   User\n
          -w, --wordlist  <filename>      |   Wordlist\n
          -h, --help      <help>          |   print help\n
-
 Example: ./ftp_brute_forcer.py -t 192.168.1.1 -u root -w /root/Desktop/wordlist.txt
 '''
 
